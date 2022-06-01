@@ -32,10 +32,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "taam\\Timeline\\TimelineServiceProvider"
+                "Taam\\Timeline\\TimelineServiceProvider"
             ],
             "aliases": {
-                "Timeline": "taam\\Timeline\\Facades\\TimelineFacade"
+                "Timeline": "Taam\\Timeline\\Facades\\TimelineFacade"
             }
         }
     }
