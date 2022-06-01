@@ -1,22 +1,22 @@
 <?php
 
-namespace Sacred96\Timeline;
+namespace Taam\Timeline;
 
-use Sacred96\Timeline\Models\Event;
-use Sacred96\Timeline\Models\History;
-use Sacred96\Timeline\Services\EventService;
-use Sacred96\Timeline\Services\HistoryService;
-use Sacred96\Timeline\Traits\Eventable;
+use Taam\Timeline\Models\Event;
+use Taam\Timeline\Models\History;
+use Taam\Timeline\Services\EventService;
+use Taam\Timeline\Services\HistoryService;
+use Taam\Timeline\Traits\Eventable;
 
 class Timeline
 {
     /**
-     * @var \Sacred96\Timeline\Services\EventService
+     * @var \Taam\Timeline\Services\EventService
      */
     private $eventService;
 
     /**
-     * @var \Sacred96\Timeline\Services\HistoryService
+     * @var \Taam\Timeline\Services\HistoryService
      */
     private $historyService;
 

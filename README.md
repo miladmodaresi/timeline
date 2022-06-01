@@ -7,7 +7,7 @@ This package allows you to add a timeline service to your Laravel ^5.8 applicati
 ## Installation
 From the command line, run:
 ```
-composer require sacred96/timeline
+composer require taam/timeline
 ```
 
 Publish the assets:
@@ -32,11 +32,11 @@ History may have actual state. For example, the initiator model expects user act
 
 #### Adding the ability to participate in timeline
 
-Add the `Sacred96\Timeline\Traits\Eventable` trait to any Model you want to participate in Timeline history.  
+Add the `Taam\Timeline\Traits\Eventable` trait to any Model you want to participate in Timeline history.  
 
 #### Indicate that the model is the initiator of the timeline
 
-Add the trait `Sacred96\Timeline\Traits\TimelineInitiator` to indicate that this model is the initiator of the timeline.
+Add the trait `Taam\Timeline\Traits\TimelineInitiator` to indicate that this model is the initiator of the timeline.
 
 This can be useful if you want to highlight different sides of the timeline. Let's say you have an invoice that started the timeline. Here he is the initiator. The rest of the actors, such as the invoiced company, will simply be a participant in the timeline.
 

@@ -1,15 +1,15 @@
 <?php
 
-namespace Sacred96\Timeline\Traits;
+namespace Taam\Timeline\Traits;
 
 use Illuminate\Database\Eloquent\Relations\MorphMany;
-use Sacred96\Timeline\Models\History;
-use Sacred96\Timeline\Models\Participation;
+use Taam\Timeline\Models\History;
+use Taam\Timeline\Models\Participation;
 
 /**
  * Trait Eventable
  *
- * @package Sacred96\Timeline\Traits
+ * @package Taam\Timeline\Traits
  *
  * @mixin \Illuminate\Database\Eloquent\Model
  */

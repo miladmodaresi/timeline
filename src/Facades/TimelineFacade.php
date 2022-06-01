@@ -1,6 +1,6 @@
 <?php
 
-namespace Sacred96\Timeline\Facades;
+namespace Taam\Timeline\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,6 +1,6 @@
 {
-    "name": "sacred96/timeline",
-    "description": "Easy way to create timeline with Laravel",
+    "name": "taam/timeline",
+    "description": "Easy way to create timeline with Laravel. orginal-link",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -13,25 +13,29 @@
         {
             "name": "Alexander Kurochkin",
             "email": "aalexander.kurochkin@gmail.com"
+        },
+        {
+            "name": "Milad Modaresi",
+            "email": "miladmodaresi525@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.1",
-        "laravel/framework": "~5.8.0"
+        "php": "^8.0",
+        "laravel/framework": "^8.0|^9.0"
     },
     "autoload": {
         "psr-4": {
-            "sacred96\\timeline\\": "src/"
+            "taam\\timeline\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Sacred96\\Timeline\\TimelineServiceProvider"
+                "taam\\Timeline\\TimelineServiceProvider"
             ],
             "aliases": {
-                "Timeline": "Sacred96\\Timeline\\Facades\\TimelineFacade"
+                "Timeline": "taam\\Timeline\\Facades\\TimelineFacade"
             }
         }
     }
